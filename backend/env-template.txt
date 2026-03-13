@@ -1,0 +1,21 @@
+# Copy this file to .env and fill in your actual values
+
+# Backend Configuration
+NODE_ENV=development
+PORT=3001
+
+# Asterisk Connection
+ASTERISK_HOST=localhost
+ASTERISK_PORT=5060
+ASTERISK_USERNAME=1001
+ASTERISK_SECRET=your_asterisk_secret_here
+
+# Smartflo API Configuration
+SMARTFLO_API_URL=https://api-smartflo.tatateleservices.com/v1
+SMARTFLO_API_TOKEN=your_smartflo_api_token_here
+SMARTFLO_AGENT_NUMBER=your_agent_number_here
+SMARTFLO_CALLER_ID=your_caller_id_here
+
+# Frontend URLs
+FRONTEND_URL=http://localhost:3000
+CORS_ORIGIN=http://localhost:3000

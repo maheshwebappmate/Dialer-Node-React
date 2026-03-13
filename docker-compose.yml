@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  asterisk:
+    image: andrius/asterisk:alpine-latest-20.5.2
+    container_name: asterisk_server
+    ports:
+      - "5060:5060/udp"
+      - "5060:5060/tcp"
+      - "8088:8088"
+      - "10000-20000:10000-20000/udp"
